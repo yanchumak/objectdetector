@@ -8,6 +8,7 @@ Usage:
 		to achieve this you can use python script keras-model-to-tensorflow-model.py, 
 		but first copy script into keras-retinanet root folder
 		script argumets: <keras model file path> <tensorflow model output folder path>
+		
 	2. Compile and run application
 		2.1 compile java sources: mvn package
 		2.2 run application: java -jar objectdetector-1.0-SNAPSHOT.jar <arguments>
