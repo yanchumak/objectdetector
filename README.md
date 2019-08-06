@@ -3,7 +3,8 @@ Application to use keras model which was trained with https://github.com/fizyr/k
 Usage:
 
 	1. convert keras model to tensorflow saved model, 
-		to achieve this you can use python script keras-model-to-tensorflow-model.py
+		to achieve this you can use python script keras-model-to-tensorflow-model.py, 
+		but first copy script into keras-retinanet root folder
 		script argumets: <keras model file path> <tensorflow model output folder path>
 	2. Compile and run application
 		2.1 compile java sources: mvn package
