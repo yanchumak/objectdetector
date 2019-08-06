@@ -1,5 +1,7 @@
 Application to use keras model which was trained with https://github.com/fizyr/keras-retinanet
+
 Usage:
+
 	1. convert keras model to tensorflow saved model, 
 		to achieve this you can use python script keras-model-to-tensorflow-model.py
 		script argumets: <keras model file path> <tensorflow model output folder path>
@@ -11,3 +13,4 @@ Usage:
 			--model <arg>     tensorflow model folder path
 			--labels <arg>    labels file path (optional)
 			--gui             run gui (optional)
+		
